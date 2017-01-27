@@ -28,7 +28,6 @@ export class MemberDetailComponent implements OnInit {
     this.displayMember = this.memberService.getMemberById(this.memberId)
   }
   goToEditMemberPage() {
-    console.log("hello")
    this.router.navigate(['member-edit', this.memberId]);
  }
 }

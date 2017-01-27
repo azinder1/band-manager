@@ -18,6 +18,12 @@ export class MemberService {
 
   }
   addNewMember(newMember) {
-    this.members.push(newMember)
+    this.members.push(newMember);
+  }
+  updatedMember(memberToUpdate, updatedName, updatedAka, updatedSkill, updatedDescription) {
+  var memberInFirebase = this.getMemberById(memberToUpdate.$key);
+  console.log(updatedName)
+  memberInFirebase.update({name: updatedName,
+  aka: updatedAka, skill: updatedSkill, description: updatedDescription})
   }
 }

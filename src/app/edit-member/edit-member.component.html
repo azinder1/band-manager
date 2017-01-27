@@ -1,3 +1,26 @@
-<p>
-  edit-member works!
-</p>
+
+<h4>Current Info:</h4>
+<ul>
+  <li><strong>AKA:</strong> {{(displayMember | async)?.name}}</li>
+  <li><strong>AKA:</strong> {{(displayMember | async)?.aka}}</li>
+  <li><strong>Skill:</strong> {{(displayMember | async)?.skill}}</li>
+  <li><strong>Description:</strong> {{(displayMember | async)?.description}}</li>
+</ul>
+<h4>Edit Member</h4>
+
+<label>Update Member Name:</label>
+<input #updateName>
+<br>
+
+<label>Update Member AKA:</label>
+<input #updateAka>
+<br>
+
+<label>Update Member Skill:</label>
+<input #updateSkill>
+<br>
+
+<label>Update Member Description:</label>
+<input #updateDescription>
+
+<button class="btn" (click)="updatingMember(updateName.value, updateAka.value, updateSkill.value, updateDescription.value)">Update</button>
