@@ -25,7 +25,7 @@ export class EditMemberComponent implements OnInit {
     });
     this.displayMember = this.memberService.getMemberById(this.memberId)
   }
-  updatingMember(updatedName: string, updatedAka: string, updatedSkill: string, updatedDescription: string, memberDispay: string){
+  updatingMember(updatedName: string, updatedAka: string, updatedSkill: string, updatedDescription: string){
   var memberObject = null;
   var updatedName = updatedName
   var updatedAka =updatedAka
@@ -36,4 +36,12 @@ export class EditMemberComponent implements OnInit {
       this.memberService.updatedMember(memberObject, updatedName, updatedAka, updatedSkill, updatedDescription)
   })
  }
+ deleteMember(){
+   var memberObject = null;
+   var updatedDescription = updatedDescription
+   this.displayMember.subscribe(result=>{
+     memberObject = result;
+      this.memberService.deleteThisMember(memberObject)
+    })
+  }
 }
