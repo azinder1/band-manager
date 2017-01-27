@@ -1,0 +1,17 @@
+{
+  "name": "band-manager",
+  "description": "This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.26.",
+  "main": "karma.conf.js",
+  "authors": [
+    "Adam Zinder <adam.zinder@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/azinder1/trackSuggester",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
