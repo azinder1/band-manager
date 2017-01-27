@@ -1,0 +1,40 @@
+{
+  "members" : [
+    {
+      "name":"Sara Stokes ",
+      "aka": "Lil Stroke",
+      "skill":"R&B Singer",
+      "description":"The singer in the group with a voice that is reminiscent to Tina Turner. Her relationship with Freddy P though has been a source of a lot of drama within the band."
+    },
+    {
+      "name":"Dylan Dilinjah",
+      "aka":"Dilon",
+      "skill":"Reggae Rap",
+      "description":"5 best rappers alive -- Dylan, Dylan, Dylan, Dylan and Dylan.  Rumor has it, he spits hot fire."
+    },
+    {
+      "name":"Kevin Barnes",
+      "aka":"Chopper aka Young City",
+      "skill":"Rapper",
+      "description": "The bad boy of the group, Chopper brings his NOLO rap style to the scene.  His attitute may stop him from making it to the top though."
+    },
+    {
+      "name":"Lynese Wiley",
+      "aka":"Babs",
+      "skill":"Rapper",
+      "description":"The chain-smoking Brooklynite is the group’s only female rapper and represented as such.  Her rhymes are almost as tigth as her weave."
+    },
+    {
+      "name":"Lloyd Mathis",
+      "aka":"E. Ness",
+      "skill":"Rapper",
+      "description":"Philly rapper E. Ness is known as the leader of the group, with a hot flow and a hotter temper."
+    },
+    {
+      "name":"Fredrick Watson",
+      "aka":"Freddy P",
+      "skill":"Rapper",
+      "description":"Freddy P. ain't about that squad life.  The Miami rapper can handle rhymes with the best of them, but can also be a lot to handle."
+    }
+  ]
+}

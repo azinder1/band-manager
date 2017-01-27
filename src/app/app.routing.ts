@@ -13,7 +13,7 @@ const appRoutes: Routes = [
     component: HomePageComponent
   },
   {
-    path: '',
+    path: 'about',
     component: AboutComponent
   },
   {
