@@ -12,6 +12,11 @@ import { AngularFire, FirebaseListObservable } from 'angularfire2';
   providers: [MemberService]
 })
 export class HomePageComponent implements OnInit {
+  filterBySkill: string = 'all'
+
+  onChange(optionFromMenu) {
+  this.filterBySkill = optionFromMenu
+  }
   members: FirebaseListObservable<any[]>
 
   constructor(private router: Router, private memberService: MemberService) { }

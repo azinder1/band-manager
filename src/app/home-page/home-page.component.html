@@ -1,5 +1,18 @@
 <div class="row">
-  <div *ngFor="let member of members | async">
+    <div class="input-field col s3">
+      <select class="drop-down" (change)="onChange($event.target.value)" >
+        <option value="" disabled selected>Choose your option</option>
+        <option value="all">All</option>
+        <option value="rapper">Rapper</option>
+        <option value="rb">R + B Artist</option>
+        <option value="singer">Singer</option>
+      </select>
+    </div>
+  </div>
+  <br>
+
+<div class="row">
+  <div *ngFor="let member of members | async | memberfilter:filterBySkill">
     <h3 (click)=getMember(member.$key)>{{member.name}}({{member.aka}})</h3>
   </div>
   <div class="add_button">
