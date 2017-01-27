@@ -1,3 +1,5 @@
-<p>
-  home-page works!
-</p>
+<div class="row">
+  <div *ngFor="let member of members | async">
+    <h3 (click)=getMember(member.$key)>{{member.name}}({{member.aka}})</h3>
+  </div>
+</div>
