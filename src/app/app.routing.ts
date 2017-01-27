@@ -25,7 +25,7 @@ const appRoutes: Routes = [
     component: AddNewComponent
   },
   {
-    path: "members/:id/edit",
+    path: "member-edit/:id",
     component: EditMemberComponent
   }
 

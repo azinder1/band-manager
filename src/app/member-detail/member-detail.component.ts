@@ -18,7 +18,8 @@ export class MemberDetailComponent implements OnInit {
   memberId: any = null;
   displayMember: any;
 
-  constructor(private route: ActivatedRoute, private memberService: MemberService, private location: Location) { }
+  constructor(private route: ActivatedRoute, private memberService: MemberService, private location: Location,
+  private router: Router) { }
 
   ngOnInit() {
     this.route.params.forEach((urlParameters) => {
@@ -26,4 +27,8 @@ export class MemberDetailComponent implements OnInit {
     });
     this.displayMember = this.memberService.getMemberById(this.memberId)
   }
+  goToEditMemberPage() {
+    console.log("hello")
+   this.router.navigate(['member-edit', this.memberId]);
+ }
 }

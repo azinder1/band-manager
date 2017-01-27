@@ -2,4 +2,7 @@
   <div *ngFor="let member of members | async">
     <h3 (click)=getMember(member.$key)>{{member.name}}({{member.aka}})</h3>
   </div>
+  <div class="add_button">
+    <button class="btn" routerLink='add-new'>Add Member!</button>
+  </div>
 </div>
