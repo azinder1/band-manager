@@ -1,3 +1,6 @@
 .drop-down{
   display: block !important;
 }
+button{
+  display:none;
+}

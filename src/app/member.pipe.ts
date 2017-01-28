@@ -9,21 +9,21 @@ export class MemberPipe implements PipeTransform {
 
   transform(input: Member[], memberSkill) {
    var output: Member[] = [];
-   if (memberSkill === "rapper") {
+   if (memberSkill === "Rapper") {
      for (var i = 0; i < input.length; i++) {
        if (input[i].skill === memberSkill) {
          output.push(input[i]);
        }
      }
      return output;
-   } else if (memberSkill === "rb") {
+   } else if (memberSkill === "Rb") {
      for (var i = 0; i < input.length; i++) {
        if (input[i].skill === memberSkill) {
          output.push(input[i]);
        }
      }
      return output;
-   } else if (memberSkill === "singer") {
+   } else if (memberSkill === "Singer") {
      for (var i = 0; i < input.length; i++) {
        if (input[i].skill === memberSkill) {
          output.push(input[i]);
