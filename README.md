@@ -1,31 +1,35 @@
 # BandManager
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.26.
+#### _Angular2 JS CLI App, January 30th, 2017_
 
-## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+#### By _**Adam Zinder**_
 
-## Code scaffolding
+## Description
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+_Manager your own band using Angular2 JS CLI app._
 
-## Build
+## Setup/Installation Requirements
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+* _$ git clone https://github.com/azinder1/band-manager_
+* _$ npm install_
+* _$ bower install_
+* _$ ng serve _
+* _Open localhost:4200_
 
-## Running unit tests
+## Known Bugs
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+_None_
 
-## Running end-to-end tests
+## Support and contact details
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+_https://github.com/azinder1_
 
-## Deploying to GitHub Pages
+## Technologies Used
 
-Run `ng github-pages:deploy` to deploy to GitHub Pages.
+_Angular2 JS, Angular2 CLI, CSS, Node JS_
 
-## Further help
+### License
 
-To get more help on the `angular-cli` use `ng help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+*MIT*
+
+Copyright (c) 2016 **_Adam Zinder_**
